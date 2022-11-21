@@ -2,6 +2,13 @@ page_blocks: []
 
 _array_structures:
  page_blocks:
+  - label: Article Header
+    icon: article
+    vlaue:
+      _id: article-info
+      category: 
+      title: 
+      author: 
   - label: Banner Block
     icon: article
     value: 
