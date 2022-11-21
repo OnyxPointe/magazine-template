@@ -13,7 +13,6 @@ _array_structures:
     icon: article
     value: 
      _id: text-img
-     title: Image and Text Block
      text_html: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolorum quam recusandae sequi quis asperiores sapiente, temporibus et officiis! Quisquam ut aut dolores distinctio recusandae eum voluptas, modi repellat excepturi!
      content_image: https://images.unsplash.com/photo-1557093793-e196ae071479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbGl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60
      image-alt-text: Test
@@ -21,18 +20,17 @@ _array_structures:
     icon: article
     value:
      _id: youtube-embed
-     title: Youtube Banner
      video_url: https://www.youtube.com/embed/CBwKJfrm5-U
   - label: Gallery Block
     icon: article 
     value:
-     _id:
-     title: Gallery Block
+     _id: gallery
+     gallery_image: https://images.unsplash.com/photo-1557093793-e196ae071479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbGl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60
+     image-alt-text: Test
   - label: CTA Block
     icon: article
     value:
      _id: cta
-     title: Gallery Block
      text: Place holder
      button-name: Click here
      button_url: https://www.google.com/
