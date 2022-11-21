@@ -3,6 +3,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Tailwind Stylessheet -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <!-- Styles sheet -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     
@@ -18,9 +20,6 @@
     <meta property="og:url" content="{{page.url}}">
     <meta name="twitter:card" content="{{page.seo.meta-description}}">
     <meta name="og:site_name" content="{{site.data.settings.general.site-name}}">
-
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Hide or show on Google -->
     {% if page.seo.hide-from-google == true %}
