@@ -1,0 +1,11 @@
+page_blocks: []
+
+_arry_structures:
+ page_blocks:
+  - label: Call to Action 
+    icon: article
+    value: 
+     _id: banner
+     title: Image banner
+     banner_image: 
+     banner-alt-text: Test
