@@ -21,5 +21,17 @@ _array_structures:
     value:
      _id: youtube-embed
      video_url: https://www.youtube.com/embed/CBwKJfrm5-U
-     
+  - label: Gallery Block
+    icon: article 
+    value:
+     _id:
+
+  - label: CTA Block
+    icon: article
+    value:
+     _id: cta
+     text: Place holder
+     button-name: Click here
+     button_url: https://www.google.com/
+
   
