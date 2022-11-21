@@ -8,6 +8,7 @@ _array_structures:
       _id: article-header
       title: 
       category: 
+      heading:
       author:
       date: 
   - label: Banner Block
