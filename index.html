@@ -8,6 +8,11 @@ seo:
     featured-image_path:
     hide-from-google: false
 ---
+
+{% for post in site.posts %}
+    <a href="{{post.url}}">{{post.title}}</a>
+{% endfor %}
+
 <header class="text-center py-3">
     <p class="uppercase font-light text-6xl p-4">Logo</p>
     <nav class="border-black border-2 uppercase p-2">
@@ -22,6 +27,7 @@ seo:
         <a class="px-5 mx-0.5" href="#">Link</a>
     </nav>
 </header>
+
 
 
 <footer class="grid gap-1 grid-cols-3">

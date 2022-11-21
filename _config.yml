@@ -1,11 +1,19 @@
 page_blocks: []
 
-_arry_structures:
+_array_structures:
  page_blocks:
-  - label: Call to Action 
+  - label: Banner
     icon: article
     value: 
      _id: banner
      title: Image banner
      banner_image: 
      banner-alt-text: Test
+  - label: Banner
+    icon: article
+    value: 
+     _id: text-img.html
+     title: Image banner
+     banner_image: 
+     banner-alt-text: Test
+  
