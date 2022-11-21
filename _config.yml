@@ -35,4 +35,9 @@ _array_structures:
       button-name: Click here
       button_url: https://www.google.com/
 
+_select-data:
+  section-styles:
+    - p-3: Padded 3
+    - p-8: Padded 8
+
   
