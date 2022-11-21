@@ -2,18 +2,24 @@ page_blocks: []
 
 _array_structures:
  page_blocks:
-  - label: Banner
+  - label: Banner Block
     icon: article
     value: 
      _id: banner
      title: Image banner
-     banner_image: 
+     banner_image: https://images.unsplash.com/photo-1557093793-e196ae071479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbGl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60
      banner-alt-text: Test
-  - label: Banner
+  - label: Text and Image Block
     icon: article
     value: 
-     _id: text-img.html
-     title: Image banner
-     banner_image: 
-     banner-alt-text: Test
+     _id: text-img
+     text_html: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic dolorum quam recusandae sequi quis asperiores sapiente, temporibus et officiis! Quisquam ut aut dolores distinctio recusandae eum voluptas, modi repellat excepturi!
+     content_image: https://images.unsplash.com/photo-1557093793-e196ae071479?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJhbGl8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60
+     image-alt-text: Test
+  - label: Youtube Embed
+    icon: article
+    value:
+     _id: youtube-embed
+     video_url: https://www.youtube.com/embed/CBwKJfrm5-U
+     
   
