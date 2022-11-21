@@ -7,7 +7,7 @@ _array_structures:
     vlaue:
       _id: article-header
       category: 
-      title: 
+      title: title
       author: 
   - label: Banner Block
     icon: article
