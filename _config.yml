@@ -9,6 +9,7 @@ _array_structures:
       title: Article Header
       category: travel
       author: author
+      date: 
   - label: Banner Block
     icon: article
     value: 
