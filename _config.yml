@@ -5,7 +5,7 @@ _array_structures:
   - label: Article Header
     icon: article
     vlaue:
-      _id: article-info
+      _id: article-header
       category: 
       title: 
       author: 
