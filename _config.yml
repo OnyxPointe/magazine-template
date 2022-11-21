@@ -4,7 +4,7 @@ _array_structures:
  page_blocks:
   - label: Article Header
     icon: article
-    vlaue:
+    value:
       _id: article-header
       title: Article Header
       category: travel
