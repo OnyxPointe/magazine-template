@@ -6,9 +6,9 @@ _array_structures:
     icon: article
     value:
       _id: article-header
-      title: Article Header
-      category: travel
-      author: author
+      title: 
+      category: 
+      author:
       date: 
   - label: Banner Block
     icon: article
