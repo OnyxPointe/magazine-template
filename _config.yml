@@ -3,11 +3,11 @@ collections:
     output: true
     permalink: /posts/:slug
 
-_select_data:
-  padded-styles:
-    - p-4: Padded Sm
-      p-6: Padded Md
-      p-8: Padded Lg
+# _select_data:
+#   padded-styles:
+#     - p-4: Padded Sm
+#       p-6: Padded Md
+#       p-8: Padded Lg
 
 # Hides frontmatter from clients 
 _inputs:
