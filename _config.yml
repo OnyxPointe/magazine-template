@@ -1,3 +1,10 @@
+_select_data:
+  padded-styles:
+    - p-4: Padded Sm
+      p-6: Padded Md
+      p-8: Padded Lg
+
+
 page_blocks: []
 
 _array_structures:
