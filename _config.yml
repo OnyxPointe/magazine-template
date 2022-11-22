@@ -32,8 +32,8 @@ _inputs:
     type: multi-select
     options:
       values: collections.cats
-  grid-width: 
-  column-width:
+  # grid-width: 
+  # column-width:
 
 page_blocks: []
 
