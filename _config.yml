@@ -9,6 +9,10 @@ _select_data:
       p-6: Padded Md
       p-8: Padded Lg
 
+# Hides frontmatter from clients 
+_inputs:
+  layout:
+    hidden: true
 
 page_blocks: []
 
