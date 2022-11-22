@@ -17,6 +17,10 @@ _select_data:
   positions:
     - left
     - right
+  backgrounds:
+    bg-zinc-800: Dark Background
+    bg-gray-300: Gray Background
+    bg-gray-50: Light Background 
   
  
 # Hides frontmatter from clients 
