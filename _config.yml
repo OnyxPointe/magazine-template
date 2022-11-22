@@ -10,7 +10,7 @@ _select_data:
     - vimeo
     - youtube
     - self-hosted
-  padded-styles:
+  section-styles:
     p-4: Padded Sm
     p-6: Padded Md
     p-8: Padded Lg
@@ -19,8 +19,6 @@ _select_data:
     - right
   
  
-
-
 # Hides frontmatter from clients 
 # Single select
 _inputs:
