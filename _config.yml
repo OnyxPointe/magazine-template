@@ -6,14 +6,23 @@ collections:
     output: true
 
 _select_data:
+  video-types:
+    - vimeo
+    - youtube
+    - self-hosted
   padded-styles:
     p-4: Padded Sm
     p-6: Padded Md
     p-8: Padded Lg
+  positions:
+    - left
+    - right
+  
  
 
 
 # Hides frontmatter from clients 
+# Single select
 _inputs:
   layout:
     hidden: true
@@ -21,6 +30,8 @@ _inputs:
     type: multi-select
     options:
       values: collections.cats
+  grid-width: 
+  column-width:
 
 page_blocks: []
 
