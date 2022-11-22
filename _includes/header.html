@@ -1,29 +1,17 @@
-<!-- <header class="text-center">
+<header class="text-center mx-10">
     <p class="uppercase font-light text-6xl p-8">Logo</p>
-    <nav class="border-black border-b border-t uppercase p-2 mx-8">
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
-        <a class="px-5 mx-0.5" href="#">Link</a>
+    <nav class="border-black border-b border-t uppercase p-2 flex flex-row flex-nowrap overflow-x-scroll scrolling-touch md:justify-center md:overflow-auto">
+        <!-- <a class="px-5 mx-0.5 inline-block" href="/index.html">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
+        <a class="px-5 mx-0.5 inline-block" href="#">Link</a> -->
+        {% for category in site.cats %}
+            <a class="px-5 mx-0.5 inline-block" href="/cat/{{category.title}}">{{category.title}} test</a>
+        {% endfor %} 
     </nav>
-</header> -->
-
-<header class="text-center">
-    <p class="uppercase font-light text-6xl p-8">Logo</p>
-    <nav class="border-black border-b border-t uppercase p-2 flex flex-row flex-nowrap overflow-x-scroll scrolling-touch md:justify-center">
-        <a class="px-5 mx-0.5 inline-block" href="/index.html">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-        <a class="px-5 mx-0.5 inline-block" href="#">Link</a>
-    </nav>
-</header>
+</header> 

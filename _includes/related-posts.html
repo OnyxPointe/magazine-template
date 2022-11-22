@@ -1,9 +1,10 @@
 <section class="text-center">
 	<h4 class=""> Related Posts </h4>
-	<div class="grid gap-2 grid-cols-3 p-6">
+	<div class="grid gap-2 grid-cols-1 ms:gird-cols-3p-6">
 		{% assign pageCategory = page.categories[0] %}
 		{% assign relevant = site.categories[pageCategory] | where_exp:"post","post.url != page.url" %}
     
+        <!-- Add where_exp"? -->
   		{% for post in relevant limit:3 %}
             <a href="{{post.url}}">
                 <div class=""> 
