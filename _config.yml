@@ -4,11 +4,13 @@ _array_structures:
  page_blocks:
   - label: Article Header
     icon: article
-    vlaue:
+    value:
       _id: article-header
-      title: Article Header
+      title: 
       category: 
-      author: 
+      heading:
+      author:
+      date: 
   - label: Banner Block
     icon: article
     value: 
