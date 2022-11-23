@@ -1,8 +1,9 @@
 <header class="text-center mx-10">
-    <p class="uppercase font-light text-6xl p-8"><a href="/index.html">Logo</a></p>
+    <p class="uppercase font-light text-6xl p-8 header playfair"><a href="/index.html">Logo</a></p>
     <nav class="border-black border-b border-t uppercase p-2 flex flex-row flex-nowrap overflow-x-scroll scrolling-touch md:justify-center md:overflow-auto">
         {% for category in site.cats %}
             <a class="px-5 mx-0.5 inline-block" href="/cats/{{category.title}}.html">{{category.title}}</a>
         {% endfor %} 
+        <a href="/search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
     </nav>
 </header> 
