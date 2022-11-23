@@ -14,9 +14,7 @@ layout: default
     </div>
 </section>
 
-{% for block in page.page_blocks %}
-    {% include /blocks/{{block._id}}.html %}
-{% endfor %}
+{% include blocks.html %}
 
 {% include related-posts.html %}
 
