@@ -28,10 +28,10 @@ _select_data:
 _inputs:
   layout:
     hidden: true
-  cats:
-    type: multi-select
-    options:
-      values: collections.cats
+  # cats:
+  #   type: multi-select
+  #   options:
+  #     values: collections.cats
   # grid-width: 
   # column-width:
 
