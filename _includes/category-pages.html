@@ -1,5 +1,43 @@
-<section class="grid grid-cols-1 items-center justify-center gap-3 bg-zinc-700 px-4 py-10 m-10 text-white md:grid-cols-4">
-  <div class="col-span-1 flex justify-center items-end w-full">
+<section class="grid  grid-cols-1 items-center justify-center gap-1 bg-zinc-700 p-4 text-white md:grid-cols-4">
+  <div class="col-span-1 flex justify-center items-end h-full w-full">
+    <div class="px-4 pt-4">
+      <h2 class="">Places to <span class="italic">Visit</span></h2>
+      <p class="text-xs pb-4">Lorem ipsum gna aliqua. Ut enim ad, quis nostrud exercitat</p>
+      <a href="#" class="border-1 border-white uppercase bg-white text-black py-1 px-3 inline-block rounded-sm">Click</a>
+    </div>
+  </div>
+  <div class="col-span-1">
+    <div class="m-4 h-[175px] bg-white">
+      <img class="min-h-full object-cover object-center" src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJhemlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+    </div>
+    <div class="pl-4">
+      <p class="">Title</p>
+      <p class="uppercase">Author</p>
+    </div>
+  </div>
+  <div class="col-span-1">
+    <div class="m-4 h-[175px] bg-white">
+      <img class="min-h-full object-cover obeject-center" src="https://images.unsplash.com/photo-1508496869408-df596454df1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3JTIwbWV4aWNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+    </div>
+    <div class="pl-4">
+      <p class="">Title</p>
+      <p class="uppercase">Author</p>
+    </div>
+  </div>
+  <div class="col-span-1">
+    <div class="m-4 h-[175px] bg-white">
+      <img class="min-h-full overflow-hidden" src="https://images.unsplash.com/photo-1573455494060-c5595004fb6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9reW8lMjBuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"/>
+    </div>
+    <div class="pl-4">
+      <p class="">Title</p>
+      <p class="uppercase">Author</p>
+    </div>
+  </div>
+</section>
+
+
+<section class="grid grid-cols-1 items-center justify-center gap-3 bg-gray-100 px-4 py-10 m-10 md:grid-cols-4">
+  <div class="col-span-1 flex justify-center items-end">
     <div class="px-4 pt-4">
       <h2 class="">Places to <span class="italic">Visit</span></h2>
       <p class="text-xs pb-4">Lorem ipsum gna aliqua. Ut enim ad, quis nostrud exercitat</p>
@@ -9,7 +47,7 @@
 
   {% for item in page.category-pages-links %}
   <div class="col-span-1 relative">
-      <img class="h-60 m-4 w-full object-cover overflow-hidden" src="{{item.category-page_url}}"/>
+      <img class="h-full m-4 w-full object-cover object-center" src="{{item.category-page_url}}"/>
     <div class="pl-4">
       <p class="uppercase">{{item.category-title}}</p>
     </div>

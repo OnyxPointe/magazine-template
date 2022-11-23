@@ -4,11 +4,11 @@ sass:
 
 css_dir: "/style"
 
-plugins:
-  - jekyll-postcss-v2
+# plugins:
+#   - jekyll-postcss-v2
 
 postcss:
-  cache: false
+  cache: true
 
 collections:
   posts: 
