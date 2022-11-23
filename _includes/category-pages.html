@@ -6,13 +6,14 @@
       <a href="#" class="border-1 border-white uppercase bg-white text-black py-1 px-3 inline-block rounded-sm">Click</a>
     </div>
   </div>
+  {% for item in page.category-pages-links %}
   <div class="col-span-1 relative">
-    <h2>He</h2>
-      <img class="h-44 m-4 w-full object-cover" src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJhemlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
+      <img class="h-60 m-4 w-full object-cover" src="{{item.category-page_url}}"/>
     <div class="pl-4">
-      <p class="uppercase">Category</p>
+      <p class="uppercase">{{item.category-title}}</p>
     </div>
   </div>
+  {% endfor %}
 </section>
 
 
