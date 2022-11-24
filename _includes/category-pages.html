@@ -7,27 +7,7 @@
     </div>
   </div>
   <div class="col-span-1">
-    <div class="m-4 h-[175px] bg-white">
-      <img class="min-h-full object-cover object-center" src="https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnJhemlsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
-    </div>
-    <div class="pl-4">
-      <p class="">Title</p>
-      <p class="uppercase">Author</p>
-    </div>
-  </div>
-  <div class="col-span-1">
-    <div class="m-4 h-[175px] bg-white">
-      <img class="min-h-full object-cover obeject-center" src="https://images.unsplash.com/photo-1508496869408-df596454df1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3JTIwbWV4aWNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
-    </div>
-    <div class="pl-4">
-      <p class="">Title</p>
-      <p class="uppercase">Author</p>
-    </div>
-  </div>
-  <div class="col-span-1">
-    <div class="m-4 h-[175px] bg-white">
-      <img class="min-h-full overflow-hidden" src="https://images.unsplash.com/photo-1573455494060-c5595004fb6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dG9reW8lMjBuaWdodHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"/>
-    </div>
+    <img class="h-[175px] m-4 w-[250px] overflow-hidden object-cover object-center" src="https://images.unsplash.com/photo-1508496869408-df596454df1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmV3JTIwbWV4aWNvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"/>
     <div class="pl-4">
       <p class="">Title</p>
       <p class="uppercase">Author</p>
@@ -35,7 +15,7 @@
   </div>
 </section>
 
-
+<!-- new section  -->
 <section class="grid grid-cols-1 items-center justify-center gap-3 bg-gray-100 px-4 py-10 m-10 md:grid-cols-4">
   <div class="col-span-1 flex justify-center items-end">
     <div class="px-4 pt-4">
@@ -46,11 +26,11 @@
   </div>
 
   {% for item in page.category-pages-links %}
-  <div class="col-span-1 relative">
-      <img class="h-full m-4 w-full object-cover object-center" src="{{item.category-page_url}}"/>
+  <div class="col-span-1">
+    <img class="h-[175px] m-4 w-[250px] overflow-hidden object-cover object-center" src="{{item.category-page_url}}"/>
+    <!-- <img class="h-full m-4 w-full object-cover object-center" src="{{item.category-page_url}}"/> -->
     <div class="pl-4">
-      <p class="italic">{{item.category-title}}</p>
-    </div>
+    <p class="italic">{{item.category-title}}</p>
   </div>
   {% endfor %}
 </section>
